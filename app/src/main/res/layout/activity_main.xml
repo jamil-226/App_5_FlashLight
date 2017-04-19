@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#a1a194"
+    tools:context="jameel.com.app_5_flashlight.MainActivity">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Flash Light App"
+    android:textStyle="bold"
+    android:textSize="38dp"
+    android:gravity="center"
+    android:layout_marginTop="40dp"
+    android:textColor="@color/colorPrimary"
+
+    />
+    <ImageButton
+        android:id="@+id/btnOFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/off"
+        android:scaleType="fitCenter"
+        android:background="#a1a194"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
